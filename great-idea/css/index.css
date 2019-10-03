@@ -64,3 +64,204 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+#body-wrap {
+	width: 800px;
+	margin: 0 auto; 
+	
+}
+
+/* Navigation styling */
+.top-bar {
+	width: 100%;
+	margin: 0 auto; 
+	text-align: center;
+
+}
+
+.logo {
+	position: relative;
+	right: -50px;
+}
+
+.top-bar a {
+	margin: 0 auto; 
+	padding-right: 35px;
+	text-decoration: none;
+	color: lightgrey;
+}
+
+
+
+header {
+	display: inline-block;
+	margin: 40px; 
+}
+
+nav {
+display: flex;
+padding: 20px;
+margin: 10px;
+}
+
+/* Navivgation styling ends here */
+
+/*Header-box styling starts here*/ 
+
+section  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 99%;
+}
+
+.header-box {
+	padding-bottom: 40px;
+	padding-right: 40px;
+	display: flex;
+	align-items: center;
+	
+}
+
+	h1{
+		
+		text-align:center;
+		font-size: 70px;
+		padding-bottom: 20px;
+		margin: 10px;
+		/* justify-content: center;
+		align-items:center; */
+	
+	}
+
+	 .button {
+		 align-items:flex-end;
+		text-decoration: none;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		border: 1px solid black;
+		margin-bottom:10px;
+		margin-left: 90px;
+		margin-top: 40px;
+		color: black;
+	 }
+
+
+		.header-picture {
+
+			position: relative; 
+			justify-content: space-between;
+			align-items: flex-end;
+			flex-flow: row wrap;
+			margin-left: 70px;
+		}
+
+
+
+.features {
+	display:flex;
+	width:99%;
+	justify-content: space-evenly;
+}
+
+
+.featureSection {
+	width: 49%;
+	
+}
+
+
+.title {
+	width:100%;
+}
+
+.middle-img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	
+}
+
+
+
+hr {
+	border: .5px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.services {
+display: flex;
+width: 99%;
+justify-content: space-evenly;
+		
+}
+
+
+.contact {
+	margin-top: 10px;
+	
+}
+
+.contact p {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	
+
+}
+
+
+
+footer{
+	text-align: center;
+}
+
+/* This is the beinging of the CSS code for services */
+
+
+
+
+
+.offers {
+	border: 1px solid red;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+
+.first-pic {
+	border: 1px solid red;
+	margin: 30px;
+
+}
+
+.services {
+	border: 1px solid red;
+	display:flex;
+	justify-content: center;
+}
+
+
+.section-one {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-one h1{
+	font-size: 25px;
+	text-align: left;
+	margin-top: 25px;
+}
+
+
+.section-two {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
