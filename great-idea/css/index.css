@@ -223,7 +223,11 @@ footer{
 /* This is the beinging of the CSS code for services */
 
 
+#page {
+	width:900px;
+	margin:0 auto;
 
+}
 
 
 .offers {
@@ -235,7 +239,8 @@ footer{
 
 .first-pic {
 	border: 1px solid red;
-	margin: 30px;
+	margin-left: 30px;
+	
 
 }
 
@@ -259,9 +264,206 @@ footer{
 }
 
 
+.section-one div{
+	margin-left: 20px;
+	margin-right:20px;
+	padding:8px;
+	flex-flow: wrap;
+	width:100%;
+	line-height: 20px;
+	
+}
+
+
 .section-two {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 
 }
+
+hr {
+	border: .5px solid black;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width:100%;
+}
+
+/* This is the styling for subsection-one */
+
+.subsection-one {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:105%;
+}
+
+.subsection-one div{
+	justify-content: space-evenly;
+	width:50%;
+	border:.5px solid black;
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	margin-top:20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	
+
+}
+
+.subsection-one h3 {
+	margin: 5px;
+}
+
+
+.subsection-one p {
+	margin: 10px;
+}
+
+.d-design {
+	justify-content: space-evenly;
+	width:50%;
+	margin-right: .5px;
+	margin-left: .5px;
+}
+
+
+
+/* Stying for subsection-one ends here */
+
+/* Styling for subsection-two starts here */
+
+.subsection-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:105%;
+}
+
+.subsection-two div {
+	justify-content: space-evenly;
+	width:50%;
+	border:.5px solid black;
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	
+}
+
+.subsection-two h3 {
+	margin: 5px;
+}
+
+.subsection-two p {
+	margin: 10px;
+}
+
+
+
+.d-marketing {
+	justify-content: space-evenly;
+	align-items: center;
+	width:50%;
+	margin-right: 10px;
+	margin-left: .5px;
+}
+
+.section-two div button {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+
+/* Styling for subsection-two ends here */
+
+/* STYLING FOR SUBSECTION-THREE STARTS HERE */
+
+.subsection-three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:105%;
+}
+
+.subsection-three div {
+	justify-content: space-evenly;
+	width:50%;
+	border:.5px solid black;
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+
+.subsection-three h3 {
+	margin:5px;
+}
+
+.subsection-three p {
+	margin: 10px;
+}
+
+
+.ios-dev {
+	justify-content: space-evenly;
+	width:50%;
+	margin-right: 20px;
+	margin-left: .5px;
+}
+
+
+
+hr {
+	border: .5px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:100%;
+	
+	
+}
+
+.description {
+	margin-top: 40px;
+	
+	
+}
+
+.facts {
+	margin-top: -30px;
+	
+	
+	
+}
+.facts p {
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	width: 90%;
+	line-height: 20px;
+}
+
+
+ul {
+	padding-left: 30px;
+}
+
+footer {
+	margin-top: 80px;
+
+}
+
+.button {
+	background-color: white;
+	color: black;
+	border: none;
+	padding: 8px 20px 8px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	
+  }
